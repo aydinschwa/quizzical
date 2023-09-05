@@ -93,3 +93,33 @@ body {
     color: #F5F7FB;
     font-weight: 600;
 }
+
+.gameOverText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.scoreText {
+    display: flex;
+    justify-content: center;
+    color: #293264;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.playAgainButton {
+    background-color: #4D5B9E;
+    border-radius: 9px;
+    color: #F5F7FB;
+    font-size: 15px; 
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 130px;
+}
